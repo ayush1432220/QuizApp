@@ -35,7 +35,7 @@ const Scores = ({ score, totalQuestions, totalTime }) => {
       <h2>{message}</h2>
       <h3>Well done, {quizSettings.name}!</h3>
       <div className="summary-details">
-        <p>Your Final Score: <strong>{score} / {totalQuestions}</strong></p>
+        <p >Your Final Score: <strong>{score} / {totalQuestions}</strong></p>
         <p>Total Time Taken: <strong>{totalTime} seconds</strong></p>
       </div>
       <div className="summary-actions">

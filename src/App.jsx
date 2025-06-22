@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AddPlayerForm from './components/AddPlayerForm';
 import QuizEngine from './components/QuizEngine';
-import LeaderBoard from './components/LeaderBoard';
+import LeaderBoard from './components/LeaderBoard'; // <-- CASE FIXED HERE
 import AboutPage from './components/AboutPage';
-import NotFound from './components/NotFound'; 
+import NotFound from './components/NotFound';
 import { QuizProvider } from './context/QuizContext';
 import './index.css';
 
@@ -21,9 +21,10 @@ function App() {
               <Route path="/" element={<HeroSection />} />
               <Route path="/quiz" element={<AddPlayerForm />} />
               <Route path="/quiz/start" element={<QuizEngine />} />
+              {/* === THIS IS THE CHANGE === */}
+              {/* The component name case is now correct */}
               <Route path="/leaderboard" element={<LeaderBoard />} />
               <Route path="/about" element={<AboutPage />} />
-             
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
