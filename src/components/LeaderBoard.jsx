@@ -1,7 +1,7 @@
 import React, { useContext, useState, useMemo } from 'react';
 import { QuizContext } from '../context/QuizContext';
 
-const Leaderboard = () => {
+const LeaderBoard = () => {
   const { quizResults } = useContext(QuizContext);
   const [sortKey, setSortKey] = useState('score');
 
@@ -72,4 +72,4 @@ const Leaderboard = () => {
   );
 };
 
-export default Leaderboard;
+export default LeaderBoard;

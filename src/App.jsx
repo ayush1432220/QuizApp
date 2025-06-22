@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AddPlayerForm from './components/AddPlayerForm';
 import QuizEngine from './components/QuizEngine';
-import Leaderboard from './components/LeaderBoard';
+import LeaderBoard from './components/LeaderBoard';
 import AboutPage from './components/AboutPage';
 import NotFound from './components/NotFound'; 
 import { QuizProvider } from './context/QuizContext';
@@ -21,7 +21,7 @@ function App() {
               <Route path="/" element={<HeroSection />} />
               <Route path="/quiz" element={<AddPlayerForm />} />
               <Route path="/quiz/start" element={<QuizEngine />} />
-              <Route path="/leaderboard" element={<Leaderboard />} />
+              <Route path="/leaderoard" element={<LeaderBoard />} />
               <Route path="/about" element={<AboutPage />} />
              
               <Route path="*" element={<NotFound />} />
