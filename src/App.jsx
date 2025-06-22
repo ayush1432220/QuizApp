@@ -21,7 +21,7 @@ function App() {
               <Route path="/" element={<HeroSection />} />
               <Route path="/quiz" element={<AddPlayerForm />} />
               <Route path="/quiz/start" element={<QuizEngine />} />
-              <Route path="/leaderoard" element={<LeaderBoard />} />
+              <Route path="/leaderboard" element={<LeaderBoard />} />
               <Route path="/about" element={<AboutPage />} />
              
               <Route path="*" element={<NotFound />} />
