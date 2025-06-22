@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AddPlayerForm from './components/AddPlayerForm';
 import QuizEngine from './components/QuizEngine';
-import Leaderboard from './components/Leaderboard';
+import Leaderboard from './components/LeaderBoard';
 import AboutPage from './components/AboutPage';
 import NotFound from './components/NotFound'; 
 import { QuizProvider } from './context/QuizContext';
